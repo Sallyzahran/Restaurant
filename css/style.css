@@ -1,0 +1,744 @@
+*{
+
+margin: 0; padding: 0;
+}
+
+html{
+
+font-size: 16px;
+font-family: 'Lato';
+
+color: #333;
+box-sizing: border-box;
+
+}
+
+
+header{
+
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,.6) , rgba(0,0,0,.6)) , url(../images/hero.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+nav{
+
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.logo{
+
+height: 100px;
+
+}
+
+.main-nav{
+
+list-style: none;
+display: flex;
+
+}
+
+.main-nav li{
+
+margin-left: 20px;
+
+}
+
+.main-nav li a {
+
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+
+.main-nav li a:hover {
+
+color: orange;
+
+
+}
+
+
+.hero{
+
+position: absolute; top: 40%;
+
+}
+
+h1{
+
+color: white;font-size: 2rem;
+text-transform: uppercase;
+word-spacing: 3px;
+letter-spacing: 3px;
+font-weight: 400;
+margin-bottom: 30px;
+
+}
+
+.btn{
+
+border: solid 1px orange;
+margin-left: 15px;
+padding: 10px 20px;
+color: orange;
+text-decoration: none;
+border-radius: 15px;
+
+}
+
+.btn:hover{
+
+background-color: orange;
+color: white;
+
+}
+
+
+.logo2{
+
+border-bottom: solid 5px #f0f0f0;
+
+}
+
+.whlogo{
+
+width: 50px;
+margin-left: 104px;
+margin-top: 6px;
+}
+
+
+
+
+
+
+.Features h1{
+
+color: #555555;
+font-weight: 400;
+letter-spacing: 2px;
+font-weight: 400;
+text-align: center;
+margin-top: 20px;
+
+}
+
+.Features hr{
+
+width: 150px;
+color: #e67e22;
+align-items: center;
+margin-left: 700px;
+border: solid;
+
+}
+
+
+.Features p{
+
+text-align: center;
+color: #555555;
+margin-top: 38px;
+line-height: 160%;
+font-weight: 400;
+}
+
+.row h3{
+
+text-transform: uppercase;
+    color: #555555;
+    font-weight: 400;
+margin-top: 10px;
+    
+
+
+}
+
+.row h5{
+
+margin-top: 20px;
+width: 219px;
+
+color: #555555;
+font-weight: 400;
+line-height: 160%;
+}
+
+
+
+
+.Favourite-meals{
+
+
+padding: 0;
+margin: 0;
+
+
+}
+
+
+
+.Favourite-meals img{
+ 
+width: 380px;
+height: 257px;
+
+}
+
+
+.imgs4{
+ 
+
+display: flex;
+
+}
+
+
+
+.imgs8{
+
+margin-top: none;
+display: flex;
+
+}
+
+
+
+
+.How-it-works{
+
+background-color: #f4f4f4;
+
+height: 741px;
+
+padding: 0; margin: 0;
+position: relative;
+ 
+}
+
+
+
+
+.How-it-works h1{
+
+
+    color: #555555;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+   
+
+
+}
+
+.How-it-works hr{
+
+    width: 150px;
+    color: #e67e22;
+    align-items: center;
+    margin-left: 700px;
+    border: solid;
+
+
+}
+
+
+
+.left-side{
+
+height: 741px;
+width: 50%;
+float: left;
+
+
+}
+
+
+
+.iphone{
+
+    height:430px ;
+position: absolute;
+    margin-left: 480px;
+    margin-top: 60px;
+}
+
+
+.right-side{
+
+height: 741px;
+width: 50%;
+float: right;
+
+
+
+
+}
+
+
+.lists{
+
+
+    list-style: none;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 100px;
+    }
+    
+    
+    .lists li{
+    
+    
+    
+    line-height: 200%;
+    
+    }
+    
+    .lists li a{
+    
+    width: 396px;
+        color: #555555;
+        font-weight: 400;
+        padding-bottom: 3px;
+        position: absolute;
+    }
+
+    .num1{
+
+        background-image: url(../images/num1.png);
+        background-repeat: no-repeat;
+        padding-left: 70px;
+        }
+        
+        .num2{
+        
+        background-image: url(../images/num2.png);
+        background-repeat: no-repeat;
+        padding-left: 70px;
+        }
+        
+        .num3{
+        
+        background-image: url(../images/num3.png);
+        background-repeat: no-repeat;
+        padding-left: 70px;
+        }
+        
+        .download{
+        
+        display: flex;
+        margin-top: 350px;
+        margin-right: 312px;
+        padding-left: 10px;
+        position: absolute;
+
+        }
+
+     .appstore{
+
+width: 179px;
+margin-left: 50px;
+
+
+     }   
+
+     .android{
+
+
+margin-top: 58px;
+margin-left: 5px;
+
+     }
+
+     
+
+.Cities h1{
+
+
+
+
+    color: #555555;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.container3 img{
+
+width: 251px;
+height: 165px;
+
+margin-left: 50px;
+}
+
+
+.container3 h3{
+
+ margin-left: 50px;
+ margin-top: 20px;
+
+}
+
+
+.container3 h5{
+
+    margin-left: 50px;
+    line-height: 200%;
+
+
+
+}
+
+
+.Cities ul{
+
+list-style: none;
+
+margin-left: 50px;
+margin-top: 10px;
+line-height: 160%;
+
+}
+
+.person{
+
+
+
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+padding-left: 30px;
+
+    }
+
+.star{
+
+
+
+    background-image: url(../images/icons8-star-20.png);
+    background-repeat: no-repeat;
+padding-left: 30px;
+margin-top: 5px;
+    }
+
+.twitter{
+
+
+
+    background-image: url(../images/icons8-twitter-20.png);
+    background-repeat: no-repeat;
+padding-left: 30px;
+margin-top: 5px;
+color: #dfc044;
+text-decoration: underline #F1C40F ;
+
+    }
+
+
+.Customer-testimonials{
+
+height: 563px;
+background-image: linear-gradient(rgba(0,0,0,.8) , rgba(0,0,0,.8)) , url(../images/back-customers.jpg);
+background-position: center;
+background-size: cover;
+margin-top: 107px;
+
+}
+
+
+
+.Customer-testimonials h1{
+
+position: absolute;
+    color: #f8f2f2;
+    font-weight: 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+margin-left: 380px;
+
+}
+
+
+.Customer-testimonials hr{
+
+
+position: absolute;
+width: 108px;
+color: #e67e22;
+align-items: center;
+margin-left: 700px;
+border: solid;
+margin-top: 200px;
+
+}
+
+
+
+
+
+
+.container4 {
+
+position: absolute;
+    margin-top: 220px;
+   
+
+
+}
+
+.container4 h4{
+
+
+    color: white;
+width: 343px;
+line-height: 200%;
+margin-left: 200px;
+
+font-weight: 300px;
+
+font-weight:  'Cormorant Garamond';
+
+}
+
+.container4 img{
+
+display: inline-block;
+width: 60px;
+border-radius: 50%;
+margin-left: 200px;
+margin-top: 30px; 
+
+
+}
+
+.container4 h5{
+
+    display: inline-block;
+    
+position: absolute;
+color: white;
+margin-left: 15px;
+font-weight: 400;
+
+margin-top : 47px;
+
+}
+
+.sec6{
+
+background-color: #f4f4f4;
+
+height: 741px;
+
+padding: 0; margin: 0;
+position: relative;
+ 
+
+}
+
+.sec6 h1{
+
+
+
+    position: absolute;
+    color: #555555;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+   margin-top: 80px;
+   margin-left: 520px;
+
+}
+
+
+.sec6 hr{
+
+
+    
+width: 150px;
+color: #e67e22;
+align-items: center;
+margin-left: 700px;
+border: solid;
+margin-top: 170px;
+position: absolute;
+}
+
+
+.plan1{
+    width: 33.33%;  height: 500px;
+    float: left;
+    position: relative;
+margin-top: 220px;
+
+}
+
+.plan2{
+    width: 33.33%;  height: 500px;
+    float: left;
+    position: relative;
+margin-top: 220px;
+}
+
+
+.plan3{
+    width: 33.33%;  height: 500px;
+    float: left;
+    position: relative;
+margin-top: 220px;
+}
+
+.upper{
+
+background-color:#fcfcfc ;
+
+width: 332px;
+height: 180px;
+
+margin-left: 117px;
+
+
+}
+
+
+.plans h3{
+
+    color: #959595;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 5px;
+position: absolute;
+
+
+}
+
+.plans h4{
+
+    color: #959595;
+    margin-top: 150px;
+    margin-left: 5px;
+    position: absolute;
+
+}
+
+.plans h1{
+
+    color: #F1C40F;
+    margin-top: 53px;
+    margin-left: 5px;
+    position: absolute;
+font-weight: 10px;
+font-size: 4rem;
+}
+
+span{
+
+
+font-size:15px ;
+
+}
+
+
+.middle{
+
+
+background-color: white;
+
+    
+    margin-left: 117px;
+    margin-top: 2px;
+ width: 332px;
+    height: 180px;
+}
+
+.middle ul{
+
+
+list-style: none;
+    color: #959595;
+   line-height: 180%;
+   margin-left: 5px;
+   margin-top: 7px;
+font-size: 17px;
+font-weight: 400px;
+position: absolute;
+}
+
+
+.middle ul li{
+
+background-image: url(../images/icons8-check-20.png);
+background-repeat: no-repeat;
+padding-left: 30px;
+margin-top: 5px;
+
+}
+
+.singup{
+
+height: 87px;
+
+width: 332px;
+background-color: white;
+
+position: absolute;
+margin-top: 182px;
+
+
+}
+
+
+.singbtn{
+
+    width: 153px;
+    border: solid 2px #F1C40F ;
+    margin-left: 65px;
+    padding: 10px 15px;
+    color:#F1C40F ;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 16px;
+    position: absolute;
+
+}
+
+.singbtn:hover{
+
+   background-color:#F1C40F ;
+    color: white;
+   
+
+}
+
+
+.se7{
+
+
+display: inline-block;
+
+
+
+}
+
+
+
+
+
